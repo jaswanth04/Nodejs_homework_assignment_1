@@ -1,9 +1,10 @@
 /*
 * Primary file for the API
-*
+* Author: Jaswant Jonnada
+* Port: 3000 for staging; 5000 for production
 */
 
-// cDependencies
+// Dependencies
 var http = require('http');
 var url = require('url');
 var StringDecoder = require('string_decoder').StringDecoder;
